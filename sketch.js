@@ -40,7 +40,7 @@ function setup()
 
     ammo = new Ammo(400,100);
 
-   // slingShot = new Slingshot(ammo,{x:400,y:400})
+   slingShot = new Slingshot(ammo.body,{x:400,y:400})
 }
 
 function draw()
